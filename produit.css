@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgb(251, 231, 209);
+}
+
+nav{
+    margin-right: 120px;
+    margin-left: 120px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 15px;
+    font-style: italic;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(84, 12, 84);
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+}
+login-btn{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.btne{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: rgb(84, 12, 84);
+    background-image: linear-gradient(45deg, #eda5cf, #f1f38b);
+    font-size: 22px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: 0.5s ;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(106, 16, 106);
+    font-size: 50px;
+    font-family: serif;
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+.box{
+    width: 50px;
+    flex: 300px;
+    box-shadow: -10px 10px 10px brown;
+    border-radius: 20px;
+    border: 3px solid brown;
+    position: relative;
+}
+img{
+    width: 200px;
+    border-radius: 15px;
+}
+.discount{
+    position: absolute;
+    top: 3px ;left: 5px;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(255, 138, 157);
+    background: transparent;
+    z-index: 1;
+    border-radius: 10px;
+}
+.image{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.box:hover .image img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+.price{
+    color: red;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: serif;
+    color: rgb(84, 12, 84);;
+    font-size: 25px;
+}
+.cnt
+{
+    font-size: 20px;
+    width: 1400px;
+    height: 100px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color:rgb(84, 12, 84);
+    box-shadow: 0px 0px 20px 5px rgb(181, 47, 47);
+}
